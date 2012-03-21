@@ -6,7 +6,7 @@ mpl.use('Agg')
 import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 
-prop = fm.FontProperties(fname=os.path.abspath('Vera.ttf'))
+prop = fm.FontProperties(fname=os.path.abspath('Vera.ttf'), weight=0, stretch=0, size=12)
 
 fig = plt.figure(figsize=(4,4))
 fig.text(0.5, 0.5, "Hello, World", fontproperties=prop, ha='center', va='center')
