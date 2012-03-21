@@ -11,3 +11,5 @@ prop = fm.FontProperties(fname=os.path.abspath('Vera.ttf'), weight=0, stretch=0,
 fig = plt.figure(figsize=(4,4))
 fig.text(0.5, 0.5, "Hello, World", fontproperties=prop, ha='center', va='center')
 fig.savefig('hello.png', dpi=100)
+fig.savefig('hello.rgba', dpi=100)
+fig.savefig('hello.eps', dpi=100)
